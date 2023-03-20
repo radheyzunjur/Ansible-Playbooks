@@ -1,0 +1,13 @@
+---
+- name: playbook5
+  hosts: server1, server2
+  become: true
+  tasks:
+  - name: update apt cache
+    apt:
+      update_cache: yes
+
+  - name: install nginx
+    apt:
+      name: nginx
+      state: present
