@@ -6,6 +6,6 @@ Here, I have configured one ansible_master instance and three ansible_host insta
 
 I'm playing around how we can write ansible-playbooks to configure the host machines through master machine.
 
-I tried creating a user on host machines, Installing Apache, Tomcat, Java JDK16
+I tried creating a users on host machines, Installing Apache, Tomcat, Java JDK16 etc.
 ![image](https://user-images.githubusercontent.com/72388543/226331503-0aefae77-6407-44d1-8a40-ca79cd9d2712.png)
 
